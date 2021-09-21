@@ -3,12 +3,12 @@ int main(){
     int n;
     long int sum=0;
     scanf("%d",&n);
-    int array1[n];
+    int array[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&array1[i]);
+        scanf("%d",&array[i]);
     }
     for(int i=0;i<n;i++){
-        sum=sum+array1[i];
+        sum=sum+array[i];
     }
     printf("%ld",sum);
 }
